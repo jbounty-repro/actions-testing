@@ -1,0 +1,15 @@
+name: Hacked
+
+on:
+  pull_request:
+  merge_group:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello World!
+        run: echo hack the planet!!!
